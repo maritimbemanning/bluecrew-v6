@@ -42,18 +42,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    {
-      "source": "/:path*",
-      "has": [
-        {
-          "type": "host",
-          "value": "(?!bluecrew\\.no|www\\.bluecrew\\.no|bluecrew-v6\\.vercel\\.app|bluecrew-v6-git-[^.]+\\.vercel\\.app|zeonaqua(\\-[^.]+)?\\.vercel\\.app).*\\.vercel\\.app"
-        }
-      ],
-      "destination": "https://bluecrew.no/:path*",
-      "permanent": true
-    }
   ]
 }
